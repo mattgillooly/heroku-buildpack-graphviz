@@ -12,7 +12,7 @@ heroku config:add BUILDPACK_URL=https://github.com/jeluard/heroku-buildpack-grap
 
 ## With other buildpacks
 
-You certainly want to do something more than just using graphviz. You will then have to use other build packs. This can be achieved with [buildpack-graphviz](https://github.com/ddollar/heroku-buildpack-multi).
+You certainly want to do something more than just using graphviz. You will then have to use other build packs. This can be achieved with [buildpack-multi](https://github.com/ddollar/heroku-buildpack-multi).
 
 Add all needed buildpacks to your `.buildpacks`:
 
